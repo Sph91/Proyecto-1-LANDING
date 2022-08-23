@@ -5,27 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROYECTO 1 LANDIG PAGE</title>
+    <link rel="stylesheet" href="/bootstrap-5.2.0-dist/css/bootstrap-reboot.min.css">
+
 </head>
 <body>
 
-    
     <header class="hero">
-       <div class="textos-hero">
-           <h1>Tu futuro hogar a un click</h1> 
-        <p>Encontramos el mejor hogar para ti</p>
-        <a href="#contacto">Contactame</a>
+        <div class="textos-hero">
+            <h1>Tu futuro hogar a un click</h1>
+            <p>Encontramos el mejor hogar para ti</p>
+            <a href="#contacto">Contactame</a>
         </div>
-        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-9.69,69.58 C171.07,171.22 352.39,-49.98 522.04,111.03 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+        <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-9.69,69.58 C171.07,171.22 352.39,-49.98 522.04,111.03 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #08f;"></path>
+            </svg></div>
     </header>
     
     <jumbotron> 
+       <img src="Images/ilustracion1.svg" alt="">
+        <section class="galeria">
+                <h2 class="titulo">PROPIEDADES</h2>
+                <article>
+                    <img src="Images/uno.jpg" alt="">
+                    <img src="images/dos.jpg" alt="">
+                    <img src="images/tres.jpg" alt="">
+                    <img src="Images/cuatro.jpg" alt="">
+                </article>
+        </section>
+
+    <section class="info-last">
+        <div class="contenedor last-section">
+            <h2 class="titulo left">Title of section</h2>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum quia possimus recusandae repellat soluta rem nesciunt debitis sint asperiores.</p>
+            <a href="" class="href cta">Ver más</a>
+        </div>
+        <img src="images/ilustracion.svg" alt="">
+        <div class="svg-wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M-9.69,69.58 C171.07,171.22 352.39,-49.98 522.04,111.03 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #08f;"></path>
+        </svg></div>
+
+    </section>        
+        
        
 
     </jumbotron>
 
     
     <section class="wave contenedor website">
-        <img src="Images/ilustracion1.svg" alt="">
+        
         <div class="contnedor textos main">
          <h2 class= "titulo left">Title of section</h2>
          <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nisi facilis ex dolore tempore perferendis commodi porro voluptatibus vitae veniam quam, expedita rerum eos vel inventore voluptates corrupti! Molestias, nam!</p>
@@ -41,7 +72,45 @@
     </section>
 
     <section class="cards contenedor">
+        <h2 class="titulo">Nuestros Servicios</h2>
+        <div class="content cards">
+            <article class="card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+</svg>     
+                <h3>Title card</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                 <a href="" class="cta">Saber más</a> 
+            </article>
+        </div>
+
+        <section class="cards contenedor">
+            <div class="content cards">
+                <article class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-inbound-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/>
+                      </svg>     
+                    <h3>Title card</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     <a href="" class="cta">Saber más</a> 
+                </article>
+            </div>
+            <section class="cards contenedor">
+                <div class="content cards">
+                    <article class="card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                            <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+                          </svg> 
+        </svg>     
+                        <h3>Title card</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                         <a href="" class="cta">Saber más</a> 
+                    </article>
+                </div>
         
+
+
     </section>
 </body>
 </html>
