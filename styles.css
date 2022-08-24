@@ -250,7 +250,7 @@ color: white;
 
 .input[type="submit"]:hover{
  cursor: pointer;
- color: tomato;
+ color: rgb(71, 114, 255);
  background: white;
  }
 
@@ -316,26 +316,44 @@ width: 48%;
 @media screen and (max-width:400px) {
     .titulo,
     .textos-hero h1{
-        font-size: 30px;
+        font-size: 20px;
     }
  
     .textos-hero p{
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
 
     }
 
     .card{
-        height: 380px;
+        height: 240px;
+    }
+
+    .content-cards,
+    h3{
+        font-size: 20px;
+    }
+
+    .content-cards p{
+        font-size: 10px;
     }
     
     .website.contenedor-textos-main{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
 
     }
 
     .galeria-con>img{
         width:97%
+
+    }
+
+    .logo-hero>img{ 
+        width:150px 
+    }
+
+    .input{
+        font-size: 10px;
 
     }
 
