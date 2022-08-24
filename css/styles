@@ -1,0 +1,7 @@
+body{
+    
+@font-face {
+        font-family: Fuente pages;
+        src: url(C:\Users\USER\Desktop\Leanding Pages\Lexend-Bold.ttf);
+        
+}
