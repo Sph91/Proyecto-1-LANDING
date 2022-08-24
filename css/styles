@@ -1,7 +1,342 @@
+
+
 body{
+        font-family: 'Manrope', sans-serif;
+    }
     
-@font-face {
-        font-family: Fuente pages;
-        src: url(C:\Users\USER\Desktop\Leanding Pages\Lexend-Bold.ttf);
+    
+    .hero{
+    background-image: linear-gradient(to right, rgba(36, 57, 73, 0.692) 0%, rgba(81, 127, 164, 0.699) 70%), url("../PROYECTO_LANDING/Images/header.jpg") ;
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    }
+    
+    .textos-hero{
+       height: 360px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .textos-hero h1{
+        font-size: 60px;
+     }
+    
+     .textos-hero p{
+        font-size: 25px;
+        margin-bottom: 20px;
         
-}
+     }
+    
+     .textos-hero a{
+        display: inline-block;
+        text-decoration: none;
+        padding: 12px 15px;
+        background-color: rgb(99, 135, 160);
+        border-radius: 8px;
+        color: white;
+     }
+    
+     .svg-hero{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    
+     }
+    
+     
+     /* Estilos Generales */ 
+    
+     .contenedor,
+     .wave-contenedor{
+        width: 90%;
+        max-width: 1000px;
+        overflow: hidden;
+        margin: auto;
+        padding: 0 0 80px 0;
+     }
+    
+     .contenedor{
+        padding: 80px 0px;
+     }
+    
+     .titulo{
+        font-weight: 400;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .titulo.left{
+        text-align: left;
+    }
+    
+    .titulo.right{
+        text-align: right;
+    }
+    
+    /* Section */
+    
+    .website{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .website img{
+        width: 100%;
+    }
+    
+    .website .contenedor-textos-main{
+        width: 40%;
+    }
+    
+    .parrafo{
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    
+    .cta{
+        display: inline-block;
+        text-decoration: none;
+        background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+        padding: 12px 15px;
+        border-radius: 8px;
+        color: #fff;
+    }
+    
+    /* Info */
+    
+    .info{
+        background-color: #485a68;
+        color: #fff;
+    }
+    
+    /* Cards */
+    
+    .content-cards{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        width: 30%;
+        text-align: center;
+        height: 300px;
+        box-shadow: 0 0 3px 0 rgba(0, 0, .5);
+        transform: scale(1);
+        transition: transform 0.6s;
+    
+    }
+    
+    .card:hover{
+          box-shadow: 0 0 6px 0 rgba(0, 0, .5); 
+          transform: scale(1.03);
+          cursor: pointer;
+    }
+    
+    .card svg{
+        margin: 30px 0 20px 0;
+        color: rgb(23, 132, 139);
+        font-size: 70px;
+    }
+    
+    .card p{
+        font-weight: 300px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    /* galeria */ 
+    
+    .galeria-cont{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        overflow: hidden;
+    }
+    
+    .galeria-cont>img{
+        width: 25%;
+        object-fit: cover;
+        margin-bottom: 20px;
+        display: block;
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,.5);
+        cursor: pointer;
+        overflow: hidden;
+    
+    }
+    
+    /* mitad de seccion */
+    
+    .info-mitad{
+        background-image: linear-gradient(to right, rgba(36, 57, 73, 0.692) 0%, rgba(81, 127, 164, 0.699) 70%), url("../PROYECTO_LANDING/Images/header.jpg") ;
+    
+    }
+    
+    .mitad-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 40px;
+     }
+    
+      .mitad-section img{
+        width: 48%;
+    
+      }
+    
+      .contenedor-textos-main{
+        width: 40%;
+        color: white;
+    }
+    
+    /* footer */
+    
+    footer{
+    background-color:#08f ;
+    color: white;
+    }
+    
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .input{
+        background: transparent;
+        border: 0px;
+        color: white;
+        outline: none;
+        border: 1px solid white;
+        padding: 20px 10px;
+    }
+    
+    .input::placeholder{
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .input[type="text"],
+    .input[type="email"],
+    .input[type="phone number"]{
+        display: inline-block;
+        width: 49%;
+        margin-bottom: 30px;
+    }
+    
+    .form textarea{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .input[type="submit"]{
+        width: 120px;
+        text-align: center;
+        padding: 14px 0;
+    }
+    
+    .input[type="submit"]:hover{
+     cursor: pointer;
+     color: tomato;
+     background: white;
+     }
+    
+     @media screen and (max-width:800px){
+        .textos-hero h1{
+            text-align: center;
+            font-size: 50px
+    
+        }
+        /* estilos generales*/
+        .titulo{
+            font-size: 35px;
+        }
+        .titulo.left{
+            text-align: center;
+        }
+        .info p{
+            text-align: center;
+        }
+    
+    /* Section*/
+    .website{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .website img{
+        width: 100%;
+    }
+    
+    .contenedor-textos-main{
+        width: 100%;
+    }
+    }
+    
+    /* Cards */
+    
+    .card{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    /* Galeria */
+    
+    .galeria-cont>img{
+    width: 48%;
+    }
+    
+    
+    /* Last*/
+    
+    .mitad-section>img{
+        width: 98%;
+    }
+    .mitad-section .contenedor-textos-main{
+        width: 98%;
+        margin-bottom: 20px;
+        
+    }
+    
+    @media screen and (max-width:400px) {
+        .titulo,
+        .textos-hero h1{
+            font-size: 30px;
+        }
+     
+        .textos-hero p{
+            font-size: 20px;
+            text-align: center;
+    
+        }
+    
+        .card{
+            height: 380px;
+        }
+        
+        .website.contenedor-textos-main{
+            margin-bottom: 30px;
+    
+        }
+    
+        .galeria-con>img{
+            width:97%
+    
+        }
+    
+    }
