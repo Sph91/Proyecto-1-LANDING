@@ -211,10 +211,6 @@ color: white;
 
 }
 
-footer .contenedor{
-    background-color:#08f 
-}
-
 .form{
     display: flex;
     flex-wrap: wrap;
