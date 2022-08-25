@@ -6,7 +6,7 @@ body{
 
 
 .hero{
-background-image: linear-gradient(to right, rgba(36, 57, 73, 0.692) 0%, rgba(81, 127, 164, 0.699) 70%), url("../PROYECTO_LANDING/Images/header.jpg") ;
+background-image: linear-gradient(to right, rgba(36, 57, 73, 0.692) 0%, rgba(81, 127, 164, 0.699) 70%), url("Images/header.jpg");
 width: 100%;
 height: 650px;
 background-repeat: no-repeat;
@@ -205,8 +205,14 @@ overflow: hidden;
 /* footer */
 
 footer{
+
 background-color:#08f ;
 color: white;
+
+}
+
+footer .contenedor{
+    background-color:#08f 
 }
 
 .form{
