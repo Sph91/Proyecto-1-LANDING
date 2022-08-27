@@ -320,6 +320,11 @@ width: 48%;
     .textos-hero h1{
         font-size: 20px;
     }
+
+    .hero{
+        background-image: linear-gradient(to right, rgba(36, 57, 73, 0.692) 0%, rgba(81, 127, 164, 0.699) 70%), url("./img/merida.jpg");
+
+    }
  
     .textos-hero p{
         font-size: 15px;
